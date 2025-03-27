@@ -1,0 +1,28 @@
+# Node modules (ye GitHub pe nahi jana chahiye)
+node_modules/
+
+# Environment variables (ye sensitive data hota hai)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files (agar aap `dist` ya `build` folder generate kar rahe hain)
+dist/
+build/
+
+# Temporary files
+tmp/
+*.tmp
+
+# System files (Windows aur Mac ke hidden files)
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
